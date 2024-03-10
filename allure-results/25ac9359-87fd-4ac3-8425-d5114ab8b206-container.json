@@ -1,0 +1,1 @@
+{"uuid":"25ac9359-87fd-4ac3-8425-d5114ab8b206","name":"Tests.Card.CreateCardTests","children":["408a5a8b-a8ee-40df-bbd4-9ea106befcab"],"befores":[{"name":"createTokenAndKey","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1710095723839,"stop":1710095723840}],"afters":[],"start":1710095714078,"stop":1710095746745}

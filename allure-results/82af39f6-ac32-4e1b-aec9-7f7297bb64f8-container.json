@@ -1,0 +1,1 @@
+{"uuid":"82af39f6-ac32-4e1b-aec9-7f7297bb64f8","name":"Tests.Checklist.CreateChecklistTests","children":["0eac58bc-d6d5-4241-ab23-f08a19568805"],"befores":[{"name":"createTokenAndKey","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1710095728059,"stop":1710095728060}],"afters":[],"start":1710095714078,"stop":1710095746750}

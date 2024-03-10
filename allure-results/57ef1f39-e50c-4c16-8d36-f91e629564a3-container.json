@@ -1,0 +1,1 @@
+{"uuid":"57ef1f39-e50c-4c16-8d36-f91e629564a3","name":"Tests.Card.UpdateCardTests","children":["67aee6c6-b71c-4e7d-a027-520c85ca7917"],"befores":[{"name":"createTokenAndKey","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1710095726529,"stop":1710095726529}],"afters":[],"start":1710095714078,"stop":1710095746747}

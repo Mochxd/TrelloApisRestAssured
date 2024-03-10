@@ -1,0 +1,1 @@
+{"uuid":"06f5ea33-f1d1-4290-b6dd-663a323178e4","name":"Tests.CheckItem.DeleteCheckItemTests","children":["0ff85b45-f5b5-4ab3-b86a-d2a988f306b5"],"befores":[{"name":"createTokenAndKey","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1710095736426,"stop":1710095736427}],"afters":[],"start":1710095714078,"stop":1710095746748}

@@ -10,7 +10,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
 public class ExcelFileUtilities {
     public FileInputStream fi;
     public FileOutputStream fo;
@@ -32,7 +31,6 @@ public class ExcelFileUtilities {
         fi.close();
         return rowcount;
     }
-
     public int getCellCount(String sheetName, int rowNum) throws IOException {
         fi = new FileInputStream(path);
         workbook = new XSSFWorkbook(fi);
@@ -43,7 +41,6 @@ public class ExcelFileUtilities {
         fi.close();
         return cellCount;
     }
-
     public String getCellData(String sheetName, int rowNum, int colNum) throws IOException {
         fi = new FileInputStream(path);
         workbook = new XSSFWorkbook(fi);
@@ -61,7 +58,6 @@ public class ExcelFileUtilities {
         fi.close();
         return data;
     }
-
     public void setCellData(String sheetName, int rowNum, int colNum, String data) throws IOException {
         File xlfile = new File(path);
         if (!xlfile.exists()) {

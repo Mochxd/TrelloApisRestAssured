@@ -1,0 +1,1 @@
+{"uuid":"134845f4-80c7-403a-9137-7e6e46facda5","name":"Tests.Card.DeleteCardTests","children":["d782a627-eb69-4e1e-a4ed-9bbbc9184174"],"befores":[{"name":"createTokenAndKey","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1710095740605,"stop":1710095740607}],"afters":[],"start":1710095714078,"stop":1710095746746}

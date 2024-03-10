@@ -1,0 +1,1 @@
+{"uuid":"09f69092-a675-4004-9710-11674481d3ba","name":"Tests.Board.DeleteBoardTests","children":["d1015748-01a8-4782-a5cd-479959ef2f0c"],"befores":[{"name":"createTokenAndKey","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1710095742240,"stop":1710095742241}],"afters":[],"start":1710095714077,"stop":1710095746743}

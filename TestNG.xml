@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Tests Suite">
+    <test verbose="2" preserve-order="true" name="C:\Users\zas\ProjectNonCommerceWebsite\src\test">
+        <classes>
+            <class name="Tests.Board.CreateBoardTests">
+                <methods>
+                    <include name="testCreateBoard"/>
+                    <include name="testInvalidCreateBoardWithGetRequest"/>
+                    <include name="testInvalidCreateBoardWithEmptyName"/>
+                </methods>
+            </class>
+            <class name="Tests.Board.GetBoardTests">
+                <methods>
+                    <include name="testGetInvalidIdOfBoard"/>
+                    <include name="testGetBoard"/>
+                </methods>
+            </class>
+            <class name="Tests.Board.GetAllMemberBoardsTests">
+                <methods>
+                    <include name="getAllMemberBoards"/>
+                </methods>
+            </class>
+            <class name="Tests.Board.UpdateBoardTests">
+                <methods>
+                    <include name="testUpdateBoard"/>
+                    <include name="testUpdateNonExistingBoard"/>
+                    <include name="testUpdateBoardWithEmptyName"/>
+                </methods>
+            </class>
+            <class name="Tests.List.CreateListTests">
+                <methods>
+                    <include name="testCreateList"/>
+                </methods>
+            </class>
+            <class name="Tests.List.GetListTests">
+                <methods>
+                    <include name="GetListTests"/>
+                </methods>
+            </class>
+            <class name="Tests.List.UpdateListTests">
+                <methods>
+                    <include name="testUpdateList"/>
+                </methods>
+            </class>
+            <class name="Tests.Card.CreateCardTests">
+                <methods>
+                <include name="testCreateCard"/>
+                </methods>
+            </class>
+            <class name="Tests.Card.GetCardTests">
+                <methods>
+                    <include name="testGetCardFromBoard"/>
+                </methods>
+            </class>
+            <class name="Tests.Card.UpdateCardTests">
+                <methods>
+                    <include name="testUpdateCardFromBoard"/>
+                </methods>
+            </class>
+            <class name="Tests.Checklist.CreateChecklistTests">
+                <methods>
+                    <include name="testCreateCheckListOnCard"/>
+                </methods>
+            </class>
+            <class name="Tests.Checklist.GetChecklistTests">
+                <methods>
+                    <include name="testGetCheckListFromBoard"/>
+                </methods>
+            </class>
+            <class name="Tests.Checklist.UpdateChecklistTests">
+                <methods>
+                    <include name="testUpdateChecklist"/>
+                </methods>
+            </class>
+            <class name="Tests.CheckItem.CreateCheckItemTests">
+                <methods>
+                    <include name="testCreateCheckItem"/>
+                </methods>
+            </class>
+            <class name="Tests.CheckItem.GetCheckItemTests">
+                <methods>
+                    <include name="testGetCheckItem"/>
+                </methods>
+            </class>
+            <class name="Tests.CheckItem.DeleteCheckItemTests">
+                <methods>
+                    <include name="testDeleteCheckItem"/>
+                </methods>
+            </class>
+            <class name="Tests.Checklist.DeleteChecklistTests">
+                <methods>
+                    <include name="testDeleteChecklist"/>
+                </methods>
+            </class>
+            <class name="Tests.Card.DeleteCardTests">
+                <methods>
+                    <include name="testDeleteCardFromBoard"/>
+                </methods>
+            </class>
+            <class name="Tests.Board.DeleteBoardTests">
+                <methods>
+                    <include name="testDeleteBoard"/>
+                </methods>
+            </class>
+            <class name="Tests.Board.DataDrivenTests">
+                <methods>
+                    <include name="testCreateBoardWithExternalData"/>
+                </methods>
+            </class>
+            <class name="Tests.Board.DeleteBoardTests">
+                <methods>
+                    <include name="testDeleteBoard"/>
+                    <include name="testDeleteBoard"/>
+                    <include name="testDeleteBoard"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,1 @@
+{"uuid":"c3a192e0-bc22-4c34-9631-3d447eb60778","name":"Tests.Board.GetAllMemberBoardsTests","children":["1007adc3-73c3-4db9-9034-da40bf9de921"],"befores":[{"name":"createTokenAndKey","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1710095719365,"stop":1710095719366}],"afters":[],"start":1710095714077,"stop":1710095746744}

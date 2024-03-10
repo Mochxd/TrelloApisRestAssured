@@ -3,7 +3,6 @@ package Utilities;
 import org.testng.annotations.DataProvider;
 
 import java.io.IOException;
-
 public class DataProviders {
     @DataProvider(name="allData")
     public Object[][] BoardData() throws IOException {
