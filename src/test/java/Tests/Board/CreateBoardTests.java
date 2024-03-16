@@ -13,7 +13,7 @@ import static io.restassured.RestAssured.given;
 
 public class CreateBoardTests extends BaseTests {
     @BeforeTest
-    @Description("Create the Data of the board(name - Description - setDefaultLists)")
+    @Description("Create the Data of the board(name - Description - setDefaultLists) Using fake data")
     public void createData(){
         createPayLoad.setName(faker.name().name());
         createPayLoad.setDefaultLists(faker.bool().bool());
