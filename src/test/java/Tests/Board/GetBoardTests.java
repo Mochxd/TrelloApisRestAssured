@@ -28,6 +28,8 @@ public class GetBoardTests extends BaseTests {
     }
     @Test()
     @Description("System Should not accept updating the board with Invalid Board ID")
+    @Story("Board")
+    @Severity(SeverityLevel.CRITICAL)
     public void testGetInvalidIdOfBoard(){
         given()
                 .spec(requestSpecification)
