@@ -14,8 +14,8 @@ import static io.restassured.RestAssured.given;
 public class DeleteCheckItemTests extends BaseTests {
     @Test
     @Description("Delete the Check item on checklist that is created")
-    @Story("Check Items")
-    @Severity(SeverityLevel.BLOCKER)
+    @Story("CheckItems")
+    @Severity(SeverityLevel.CRITICAL)
     public void testDeleteCheckItem(){
         extractCheckItemId();
         given().spec(requestSpecification)

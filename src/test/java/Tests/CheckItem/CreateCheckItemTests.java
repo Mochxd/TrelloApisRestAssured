@@ -13,7 +13,7 @@ import static io.restassured.RestAssured.given;
 public class CreateCheckItemTests extends BaseTests {
     @Test
     @Description("Create new Check item on checklist that is created")
-    @Story("Check Items")
+    @Story("CheckItems")
     @Severity(SeverityLevel.BLOCKER)
     public void testCreateCheckItem(){
         extractChecklistId();

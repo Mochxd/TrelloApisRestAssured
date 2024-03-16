@@ -14,8 +14,8 @@ import static io.restassured.RestAssured.given;
 public class GetCheckItemTests extends BaseTests {
     @Test
     @Description("Get the Check item on checklist that is created")
-    @Story("Check Items")
-    @Severity(SeverityLevel.BLOCKER)
+    @Story("CheckItems")
+    @Severity(SeverityLevel.CRITICAL)
     public void testGetCheckItem(){
         extractCheckItemId();
         given().spec(requestSpecification)
