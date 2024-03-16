@@ -1,8 +1,11 @@
 package Tests.Checklist;
 
 import Tests.Base.BaseTests;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import io.restassured.http.ContentType;
-import jdk.jfr.Description;
 import org.testng.annotations.Test;
 
 import static EndPoints.Urls.CreateChecklistUrl;
@@ -11,6 +14,8 @@ import static org.hamcrest.Matchers.equalTo;
 public class CreateChecklistTests extends BaseTests {
     @Test
     @Description("Create new CheckList in the in the Card that is created")
+    @Story("CheckLists")
+    @Severity(SeverityLevel.BLOCKER)
     public void testCreateCheckListOnCard(){
         extractCardIdFromMember();
         createPayLoad.setCheckListName("Test Login Button");
