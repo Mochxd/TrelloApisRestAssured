@@ -9,7 +9,7 @@ import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 public class GetListTests extends BaseTests {
     @Test(priority = 1)
-    @Description("Git the list in the board that is created")
+    @Description("Get the list in the board that is created")
     public void testGetListFromBoard(){
         extractListIdFromBoard("0");
         given()
