@@ -1,8 +1,11 @@
 package Tests.CheckItem;
 
 import Tests.Base.BaseTests;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import io.restassured.http.ContentType;
-import jdk.jfr.Description;
 import org.testng.annotations.Test;
 
 import static EndPoints.Urls.CreateCheckItemUrl;
@@ -10,6 +13,8 @@ import static io.restassured.RestAssured.given;
 public class CreateCheckItemTests extends BaseTests {
     @Test
     @Description("Create new Check item on checklist that is created")
+    @Story("Check Items")
+    @Severity(SeverityLevel.BLOCKER)
     public void testCreateCheckItem(){
         extractChecklistId();
         createPayLoad.setCheckItemName("Verify the correct Functionality of the button");
