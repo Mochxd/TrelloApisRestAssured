@@ -111,8 +111,6 @@
             <class name="Tests.Board.DeleteBoardTests">
                 <methods>
                     <include name="testDeleteBoard"/>
-                    <include name="testDeleteBoard"/>
-                    <include name="testDeleteBoard"/>
                 </methods>
             </class>
         </classes>
