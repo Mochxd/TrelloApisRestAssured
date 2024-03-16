@@ -1,7 +1,10 @@
 package Tests.Board;
 
 import Tests.Base.BaseTests;
-import jdk.jfr.Description;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import org.testng.annotations.Test;
 
 import static EndPoints.Urls.GetBoardUrl;
@@ -9,6 +12,8 @@ import static io.restassured.RestAssured.given;
 public class GetBoardTests extends BaseTests {
     @Test()
     @Description("Get the Board that is created")
+    @Story("Board")
+    @Severity(SeverityLevel.CRITICAL)
     public void testGetBoard(){
         extractBoardIdFromMember();
         given()

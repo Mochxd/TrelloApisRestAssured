@@ -2,7 +2,10 @@ package Tests.Board;
 
 import Tests.Base.BaseTests;
 import io.restassured.http.ContentType;
-import jdk.jfr.Description;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -14,6 +17,8 @@ import static io.restassured.RestAssured.given;
 public class CreateBoardTests extends BaseTests {
     @BeforeTest
     @Description("Create the Data of the board(name - Description - setDefaultLists) Using fake data")
+    @Story("Board")
+    @Severity(SeverityLevel.BLOCKER)
     public void createData(){
         createPayLoad.setName(faker.name().name());
         createPayLoad.setDefaultLists(faker.bool().bool());
@@ -22,6 +27,8 @@ public class CreateBoardTests extends BaseTests {
     }
     @Test(priority = 1)
     @Description("Create new Board with Name and Description")
+    @Story("Board")
+    @Severity(SeverityLevel.BLOCKER)
     public void testCreateBoard(){
         HashMap<String,String> queries = new HashMap<>();
         queries.put("name", createPayLoad.getName());
@@ -43,6 +50,8 @@ public class CreateBoardTests extends BaseTests {
     }
     @Test(priority = 2)
     @Description("System Should not accept Creating a new Board with get Request")
+    @Story("Board")
+    @Severity(SeverityLevel.CRITICAL)
     public void testInvalidCreateBoardWithGetRequest(){
         given()
                 .spec(requestSpecification)
@@ -56,6 +65,8 @@ public class CreateBoardTests extends BaseTests {
     }
     @Test(priority = 3)
     @Description("System Should not accept creating new Board with empty name")
+    @Story("Board")
+    @Severity(SeverityLevel.CRITICAL)
     public void testInvalidCreateBoardWithEmptyName(){
         given()
                 .spec(requestSpecification)
