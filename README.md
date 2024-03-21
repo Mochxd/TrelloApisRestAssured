@@ -78,5 +78,4 @@ Tests are executed using TestNG. You can monitor the progress in your IDE's cons
 TrelloApisRestAssured offers a comprehensive framework for automating interactions with Trello's API. By following the provided installation instructions, you can quickly set up the project and begin testing Trello API functionalities efficiently.
 
 ## Contact
-
 For any queries or assistance, feel free to contact me via email at [mohameddmostafa98@gmail.com](mailto:mohamedbadrxd@gmail.com). Your feedback and suggestions are greatly appreciated.
